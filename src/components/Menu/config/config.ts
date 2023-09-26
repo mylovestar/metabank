@@ -19,7 +19,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   },
   {
     label: t('Stake'),
-    href: '/pool',
+    href: '/poolse',
     icon: 'Pool',
     showItemsOnMobile: false,
   },
