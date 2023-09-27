@@ -12,7 +12,7 @@ const css = `
   gap: 10px;
 }
 . tokenTypeBar .item {
-  background: #21242D;
+  background: #000000;
   border-radius: 10px;
   padding: 12px;
   height: 85px;
@@ -24,7 +24,7 @@ const css = `
 }
 .tokenTypeBar .chart {
   width: 75px;
-  height: 45px;
+  height: 35px;
 }
 .tokenTypeBar .changeIcon {
   display: flex;
@@ -54,7 +54,7 @@ const css = `
   font-weight: 600;
   font-size: 14px;
   line-height: 13px;
-  color: #000000;
+  color: #ffffff;
 }
 .font-18 {
   font-family: 'Roboto';
@@ -76,7 +76,7 @@ const css = `
   width: 100%;
 }
 .color10 {
-  color: #EA3A3D !important;
+  color: #f93232 !important;
 }
 .color3 {
   color: #1AD598 !important;
@@ -117,14 +117,14 @@ const NativeTokenBar = () => {
       <style>
         {css}
       </style>
-      <div className="tokenTypeBar mt-3" style={{background: "#efefed"}}>
+      <div className="tokenTypeBar mt-3" style={{background: "#000000"}}>
         {nativeTokenData && <Ticker>
           {({ index }) => (
             <div className='d-flex itemSet' style={{ display: "flex", justifyContent: "space-between" }}>
               {
                 nativeTokenData.map((item, i) => (
-                  <div key={index} className="d-flex justify-content-between item" style={{ display: "flex", justifyContent: "space-between", width: "140px", margin: "5px", background: "#ffffff", borderRadius: "8px", padding: "5px" }}>
-                    <div className="d-flex flex-column align-items-center" style={{ display: "flex", flexDirection: "column", width: "50px" }}>
+                  <div key={index} className="d-flex justify-content-between item" style={{ display: "flex", justifyContent: "center", width: "140px", margin: "5px", background: "#000000", borderRadius: "8px", padding: "5px" }}>
+                    <div className="d-flex flex-column align-items-center" style={{ display: "flex", flexDirection: "column", width: "25px" }}>
                       <img className="coin-icon mb-1" src={item.iconUrl} alt='coin icon' />
                       {/* <div className="font-14 fw-bold">{item.symbol}</div> */}
                     </div>

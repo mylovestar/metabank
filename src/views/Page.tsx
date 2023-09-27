@@ -27,7 +27,7 @@ const StyledPage = styled.div<{ $removePadding: boolean }>`
   //   padding: ${({ $removePadding }) => ($removePadding ? '0' : '32px')};
   //   padding-bottom: 0;
   // }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     flex-direction: column;
   }
 `
@@ -36,8 +36,26 @@ const StyledImg = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 16px;
-  ${({ theme }) => theme.mediaQueries.sm} {
-    width: 90%;
+  margin-bottom: 50px; 
+  margin-top: 50px; 
+  width: 80%;
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    width: 328px;
+  }
+`
+
+const StyledCoin = styled.div`
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  @media (max-width: 1024px) {
+    display: none;
   }
 `
 
@@ -48,12 +66,14 @@ const Page: React.FC<
     <>
       <PageMeta />
       <StyledPage $removePadding={removePadding} {...props}>
-        <Box display={['block', null, null, hideFooterOnDesktop ? 'none' : 'block']} width="100%" style={{display: "flex", justifyContent: "center", marginBottom: "20px" }}>
-          <img src="/images/Coin Design.png" alt="" width="400" />
+        <Box display={['block', null, null, hideFooterOnDesktop ? 'none' : 'block']} width="100%" style={{ display: "flex", justifyContent: "center" }}>
+          <StyledCoin>
+            <img src="/images/Coin Design.png" alt="" />
+          </StyledCoin>
         </Box>
         {children}
         {/* <Flex flexGrow={1} /> */}
-        <Box display={['block', null, null, hideFooterOnDesktop ? 'none' : 'block']} width="100%" style={{display: "flex", justifyContent: "center" }}>
+        <Box display={['block', null, null, hideFooterOnDesktop ? 'none' : 'block']} width="100%" style={{ display: "flex", justifyContent: "center" }}>
           {/* <Footer /> */}
           {/* <Link
             small
@@ -62,7 +82,7 @@ const Page: React.FC<
             href="https://bet.hodlx.exchange/rangefinder/hodlx"
             style={{ justifyContent: "center", width: "auto" }}
           > */}
-            <StyledImg src="/images/flow_images.gif" style={{ marginBottom: "50px", marginTop: "50px" }} alt='' />
+          <StyledImg src="/images/flow_images.gif" alt='' />
           {/* </Link> */}
         </Box>
       </StyledPage>
