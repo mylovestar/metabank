@@ -1551,9 +1551,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap/sdk@HODL-org/hodlx-swap-sdk":
+"@pancakeswap/sdk@mylovestar/metabank_sdk":
   version "2.4.0"
-  resolved "https://codeload.github.com/HODL-org/hodlx-swap-sdk/tar.gz/d975bd4e6eaceb5717bf7ff1cadec21e75ad1180"
+  resolved "https://codeload.github.com/mylovestar/metabank_sdk/tar.gz/944863d4210d98a44dc6915f474a7cced2951520"
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"
@@ -1563,9 +1563,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap/uikit@HODL-org/hodlx-new-uikit":
+"@pancakeswap/uikit@mylovestar/metabank_uikit":
   version "0.63.1"
-  resolved "https://codeload.github.com/HODL-org/hodlx-new-uikit/tar.gz/246ccba59ba6b07f421f1f33a72664f3ead43dc5"
+  resolved "https://codeload.github.com/mylovestar/metabank_uikit/tar.gz/815690c54f632c7cd54d04893bf66836d9a77d08"
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/styled-system" "^5.1.10"
@@ -13051,7 +13051,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -13443,6 +13443,18 @@ react-smooth@^1.0.6:
     prop-types "^15.6.0"
     raf "^3.4.0"
     react-transition-group "^2.5.0"
+
+react-sparklines@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-sparklines/-/react-sparklines-1.7.0.tgz#9b1d97e8c8610095eeb2ad658d2e1fcf91f91a60"
+  integrity sha512-bJFt9K4c5Z0k44G8KtxIhbG+iyxrKjBZhdW6afP+R7EnIq+iKjbWbEFISrf3WKNFsda+C46XAfnX0StS5fbDcg==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-ticker@1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/react-ticker/-/react-ticker-1.3.2.tgz#5b8e486a7a7c5c4dd4076bdbabb3efaa31932ef7"
+  integrity sha512-9sLgc9gFx/EMNxn2QcwUJAOf3jdEROKRyXZGbWrEbfJG/MTkHwR+WRrVtypv3iFXPpcrKmPD91+vatHq0BgR0Q==
 
 react-transition-group@^2.5.0:
   version "2.9.0"
