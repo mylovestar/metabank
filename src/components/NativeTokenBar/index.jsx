@@ -118,7 +118,7 @@ const NativeTokenBar = () => {
         {css}
       </style>
       <div className="tokenTypeBar mt-3" style={{background: "#000000"}}>
-        {nativeTokenData && <Ticker>
+        {nativeTokenData && <Ticker height="45">
           {({ index }) => (
             <div className='d-flex itemSet' style={{ display: "flex", justifyContent: "space-between" }}>
               {
