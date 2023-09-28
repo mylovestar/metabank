@@ -1,4 +1,4 @@
-import { Trade } from '@pancakeswap/sdk'
+import { Trade } from '@metabank/sdk'
 import { ArrowDownIcon, Button, Flex, Message, MessageText, Modal, Spinner, Text } from '@metabank/uikit'
 import { CurrencyLogo } from 'components/Logo'
 import { useTranslation } from 'contexts/Localization'

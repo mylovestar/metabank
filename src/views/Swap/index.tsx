@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import Cookies from 'universal-cookie'
 import { useQueryParam, StringParam, withDefault } from 'next-query-params'
-import { Currency, CurrencyAmount, JSBI, Token, Trade } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, JSBI, Token, Trade } from '@metabank/sdk'
 import {
   Button,
   Text,

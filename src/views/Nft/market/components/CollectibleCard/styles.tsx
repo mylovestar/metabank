@@ -12,7 +12,7 @@ import {
   WalletFilledIcon,
   Skeleton,
 } from '@metabank/uikit'
-import { Price } from '@pancakeswap/sdk'
+import { Price } from '@metabank/sdk'
 import { useTranslation } from 'contexts/Localization'
 import { multiplyPriceByAmount } from 'utils/prices'
 import styled from 'styled-components'

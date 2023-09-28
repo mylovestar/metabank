@@ -1551,7 +1551,7 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap/sdk@mylovestar/metabank_sdk":
+"@metabank/sdk@mylovestar/metabank_sdk":
   version "2.4.0"
   resolved "https://codeload.github.com/mylovestar/metabank_sdk/tar.gz/944863d4210d98a44dc6915f474a7cced2951520"
   dependencies:

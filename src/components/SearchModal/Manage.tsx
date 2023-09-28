@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@metabank/sdk'
 import { ButtonMenu, ButtonMenuItem, ModalBody } from '@metabank/uikit'
 import styled from 'styled-components'
 import { TokenList } from '@uniswap/token-lists'

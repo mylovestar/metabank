@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import styled from 'styled-components'
-import { Pair } from '@pancakeswap/sdk'
+import { Pair } from '@metabank/sdk'
 import { Text, Flex, CardBody, CardFooter, Button, AddIcon, Heading } from '@metabank/uikit'
 import Link from 'next/link'
 import { useTranslation } from 'contexts/Localization'

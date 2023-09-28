@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Trade, TradeType } from '@pancakeswap/sdk'
+import { Trade, TradeType } from '@metabank/sdk'
 import { Button, Text, ErrorIcon, ArrowDownIcon } from '@metabank/uikit'
 import { Field } from 'state/swap/actions'
 import { useTranslation } from 'contexts/Localization'
