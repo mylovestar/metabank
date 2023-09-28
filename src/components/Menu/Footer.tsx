@@ -16,6 +16,9 @@ const Wrapper = styled.div<{ $isSide: boolean }>`
     justify-content: center;
     flex-direction: ${({ $isSide }) => ($isSide ? 'column' : 'row')};
   }
+  @media (max-width: 575px) {
+    padding-bottom: 40px;
+  }
 `
 
 const BubbleWrapper = styled(Flex)`
@@ -45,6 +48,8 @@ const Footer: React.FC<{ variant?: FooterVariant }> = ({ variant = 'default' }) 
       <Flex>
         <a href="/#"><img src="/images/twitter.svg" alt="" aria-label="twitter" style={{margin: "20px"}} /></a>
         <a href="/#"><img src="/images/telegram.svg" alt="" aria-label="telegram" style={{margin: "20px"}} /></a>
+        <a href="https://wa.me/+60169736682"><img src="/images/whatsapp.png" alt="" aria-label="whatsapp"  style={{margin: "20px", width: "18px"}} /></a>
+        <a href="mailto:metabank.exchange@gmail.com"><img src="/images/mail.png" alt="" aria-label="whatsapp"  style={{margin: "20px", width: "18px"}} /></a>
       </Flex>
     </Wrapper>
   )

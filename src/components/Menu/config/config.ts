@@ -33,6 +33,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     label: t('Specials'),
     href: '/earns',
     icon: 'Pool',
+    showOnMobile: false,
     showItemsOnMobile: false,
   },
   {
@@ -45,6 +46,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     label: t('Referrals'),
     href: '/referrals',
     icon: 'Groups',
+    showOnMobile: false,
     showItemsOnMobile: false,
   },  
   {
