@@ -1,4 +1,4 @@
-import { TagProps } from '@pancakeswap/uikit'
+import { TagProps } from '@metabank/uikit'
 import { ClosedTag, CommunityTag, CoreTag, SoonTag, VoteNowTag } from 'components/Tags'
 import { ProposalState } from 'state/types'
 

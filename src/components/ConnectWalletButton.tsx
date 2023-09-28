@@ -1,4 +1,4 @@
-import { Button, useWalletModal } from '@pancakeswap/uikit'
+import { Button, useWalletModal } from '@metabank/uikit'
 import useAuth from 'hooks/useAuth'
 import { useTranslation } from 'contexts/Localization'
 import Trans from './Trans'

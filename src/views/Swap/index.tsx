@@ -15,7 +15,7 @@ import {
   useMatchBreakpoints,
   ArrowUpDownIcon,
   Skeleton,
-} from '@pancakeswap/uikit'
+} from '@metabank/uikit'
 import { useIsTransactionUnsupported } from 'hooks/Trades'
 import UnsupportedCurrencyFooter from 'components/UnsupportedCurrencyFooter'
 import Footer from 'components/Menu/Footer'

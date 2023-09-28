@@ -1,4 +1,4 @@
-import { Flex, Heading, Skeleton } from '@pancakeswap/uikit'
+import { Flex, Heading, Skeleton } from '@metabank/uikit'
 import getTimePeriods from 'utils/getTimePeriods'
 import Timer from './Timer'
 import useNextEventCountdown from '../../hooks/useNextEventCountdown'

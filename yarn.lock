@@ -1563,7 +1563,7 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap/uikit@mylovestar/metabank_uikit":
+"@metabank/uikit@mylovestar/metabank_uikit":
   version "0.63.1"
   resolved "https://codeload.github.com/mylovestar/metabank_uikit/tar.gz/815690c54f632c7cd54d04893bf66836d9a77d08"
   dependencies:

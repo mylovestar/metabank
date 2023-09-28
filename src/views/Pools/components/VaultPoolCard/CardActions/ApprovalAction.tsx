@@ -1,4 +1,4 @@
-import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap/uikit'
+import { Button, AutoRenewIcon, Skeleton } from '@metabank/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { useERC20, useErc721CollectionContract } from 'hooks/useContract'
 import { DeserializedPool } from 'state/types'

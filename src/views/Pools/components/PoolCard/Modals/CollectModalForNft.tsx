@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
-import { Modal, Text, Button, Heading, Flex, AutoRenewIcon, useTooltip } from '@pancakeswap/uikit'
+import { Modal, Text, Button, Heading, Flex, AutoRenewIcon, useTooltip } from '@metabank/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import useToast from 'hooks/useToast'

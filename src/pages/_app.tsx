@@ -1,4 +1,4 @@
-import { Button, Modal, ModalBody, ResetCSS, useModal } from '@pancakeswap/uikit'
+import { Button, Modal, ModalBody, ResetCSS, useModal } from '@metabank/uikit'
 import Script from 'next/script'
 import BigNumber from 'bignumber.js'
 import { NextQueryParamProvider } from 'next-query-params'

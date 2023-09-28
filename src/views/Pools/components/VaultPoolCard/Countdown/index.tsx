@@ -1,4 +1,4 @@
-import { Flex, Heading, Skeleton, Text } from '@pancakeswap/uikit'
+import { Flex, Heading, Skeleton, Text } from '@metabank/uikit'
 import getTimePeriods from 'utils/getTimePeriods'
 import Timer from './Timer'
 
